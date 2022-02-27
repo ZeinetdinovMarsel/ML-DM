@@ -14,11 +14,11 @@
     <table>
     <tr>
         <td>Первый массив</td>
-        <td><input type="text" id="mass1" value="142ss"/><br></td>
+        <td><input type="text" id="mass1" value=""/><br></td>
     </tr>
         <tr>
             <td>Второй массив</td>
-            <td><input type="text" id="mass2" value="142s"/><br></td>
+            <td><input type="text" id="mass2" value=""/><br></td>
         </tr>
         <tr>
             <td><input type="button"  value="Объединение" onclick="union();"/></td>
