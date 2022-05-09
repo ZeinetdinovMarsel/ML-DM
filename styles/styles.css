@@ -1,0 +1,475 @@
+
+body{
+    margin: 0;
+    background: #FFEEFF;
+}
+.headText{
+    margin-bottom: 0.5vh;
+    width: 90%;
+    position:relative;
+    left:1vw;
+    font-size: 6vmin;
+    font-family:'Segoe UI';
+    font-weight: 500;
+    letter-spacing: 0.5vw;
+    color:#FFEEFF;
+
+}
+.head {
+    width:100%;
+    background: #333333;
+    align-items: center;
+    display: flex;
+  }
+.mainBlockin{
+    position: absolute;
+    top:25%;
+    width:100%;
+    align-items: center;
+    vertical-align: middle;
+    display: flexbox;
+      
+ }
+.buttons{
+    display: flex;
+    position: relative;
+    top:8vh;
+    left: 12%;
+    width: 80%;
+
+}
+.button1{
+    width:17vw;
+    height:10.5vh;
+    margin-left: 1vw;
+    border: 0.2vw solid black;
+    background: white;
+    text-decoration: none;
+    overflow:hidden;
+
+
+}
+.buttontext{
+    position: relative;
+    top: 1.5vh;
+    font-family:'Raleway Medium', 'Raleway Regular';
+    font-weight:500;
+    font-size:3.5vmin;
+    text-align:center;
+    color: black;
+    text-decoration: none;
+
+}
+.buttontextlight{
+    position: relative;
+    margin-top: 3vh;
+    font-family:'Raleway Medium', 'Raleway Regular';
+    font-weight:500;
+    font-size:4.5vmin;
+    text-align:center;
+    color: black;
+    text-decoration: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.line{
+    width: 90vw;
+    height: 0.3vh;
+    position: relative;
+    top: 6vh;
+    left:5%;
+    background: #8a5177;
+}
+#mouseTarget {
+    position: relative;
+    top:-7vh;
+    left: 37%;
+    width: 25vw;
+    height:25vw;
+    border: 0.5vmin solid black;
+    border-radius: 8vmin;
+    background: url("../img/harambe.png") center;
+    background-size:cover;
+    
+}
+.button1:hover {
+    transition: 400ms;
+    background: rgb(184, 184, 184);
+}
+.user{
+    margin-right: 1vmin;
+    width: max-content;
+    position:relative;
+    font-size: 2vmin;
+    font-family:'Segoe UI';
+    color:#ddb4dd;
+    text-decoration: underline solid violet;
+}
+.username{
+    margin-right: 1vmin;
+    position:relative;
+    font-size: 2vmin;
+    font-family:'Segoe UI';
+    color:#ddb4dd;
+}
+.user:hover{
+    transition: 400ms;
+    color:#ff75ff;
+}
+/*
+Обо мне
+*/
+.block{
+    align-items: center;
+    vertical-align: middle;
+}
+.mainblock{
+    position:relative;
+    top:12vh;
+    left: 18%;
+    width: 75%;
+}
+.myimage {
+    width: 313px;
+    height: 475px;
+    position:relative;
+    left:36%;
+    top:8vh;
+    background: url("../img/Mypic.svg") center;
+}
+.line1{
+    position: relative;
+    top:4vh;
+    left:5%;
+    width: 80%;
+    height: 3px;
+    background: #282828;
+}
+.maintext{
+    left: 5%;
+    width: 75%;
+    font-size: 24px;
+    font-family:'Segoe UI';
+    text-align:left;
+    color:#000000;
+}
+.hobbytext{
+    position: relative;
+    left: 15%;
+    top: 7vh;
+    width: 75%;
+    font-size: 24px;
+    font-family:'Segoe UI';
+    text-align:end;
+    color:#000000;
+}
+/*
+Контактная информация
+*/
+.blockinf{
+    display: flex;
+    width: 60%;
+    position: relative;
+    left: 20%;
+    flex-direction: column;
+}
+.icons{
+    position: relative;
+    vertical-align: middle;
+    left: 13%;
+}
+.line2{
+    width: 0.1vw;
+    height: 70vh;
+    position: relative;
+    left: 5%;
+    background: #CEA7CA;
+
+}
+.gmail{
+    width: 127px ;
+    height: 127px ;
+    background: url("../img/gmail.png") center;
+    margin-bottom: 9vh;
+
+}
+.mail{
+    width: 115px ;
+    height: 115px ;
+    background: url("../img/mail.png") center;
+    margin-bottom: 9vh;
+
+}
+.viber{
+    width: 121px ;
+    height: 121px ;
+    background: url("../img/viber.png") center;
+
+}
+.infotext{
+    position: relative;
+    left: 30%;
+    width: 25vw;
+    font-size: 3vmin;
+    font-family:'Arial Полужирный', 'Arial Обычный', 'Arial';
+    font-weight: 800;
+    color:#000000;
+    white-space:pre;
+}
+.soc{
+    width: 40%;
+    position: relative;
+    left: 30%;
+    top:5vh;
+
+}
+.line3{
+    position: relative;
+    height: 0.3vh;
+    width: 100%;
+    background: black;
+
+}
+.line3text{
+    width: 350px;
+    height: 3px;
+    position: relative;
+    font-size: 32px;
+    font-family:'Arial Полужирный', 'Arial Обычный', 'Arial';
+    font-weight: 800;
+    color: black;
+    text-align: center;
+}
+.socic{
+    display: flex;
+    position: relative;
+    top: 8vh;
+
+}
+.vk{
+    width: 90px ;
+    height: 90px ;
+    background: url("../img/vk.png") center;
+    
+}
+.inst{
+    width: 90px ;
+    height: 90px ;
+    background: url("../img/inst.png") center;
+    
+}
+.steam{
+    width: 90px ;
+    height: 90px ;
+    background: url("../img/steam.png") center;
+    
+}
+.git{
+    width: 90px ;
+    height: 90px ;
+    background: url("../img/git.png") center;
+    
+}
+.vk:hover{
+    transition: 200ms;
+    border: 2px solid rgb(111, 0, 255);
+    border-radius: 20px;
+}
+.inst:hover{
+    transition: 200ms;
+    border: 2px solid rgb(111, 0, 255);
+    border-radius: 20px;
+}
+.steam:hover{
+    transition: 200ms;
+    border: 2px solid rgb(111, 0, 255);
+    border-radius: 100px;
+}
+.git:hover{
+    transition: 200ms;
+    border: 2px solid rgb(111, 0, 255);
+    border-radius: 100px;
+}
+/*
+Галерея
+*/
+.gallereymain{
+    position: relative;
+    top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.replaceimg img{
+    position: relative;
+    top:3vh;
+    height: 120px;
+    width: 210px;
+    transform: scale(-1, 1);
+}
+.replaceimg1 img{
+    position: relative;
+    top:3vh;
+    height: 120px;
+    width: 210px;
+}
+#mainImage{
+    overflow: hidden;
+    position: relative;
+    width: 500px;
+    border: 10px solid rgb(250, 143, 178);
+    white-space:nowrap;
+}
+.uwu{
+
+    height:554px;
+    display: inline-flex;
+    
+    background-repeat:no-repeat;
+}
+/*
+Вход пользователя
+*/
+.container{
+    width: 40vw;
+    position: relative;
+    left:30%;
+    top: 8vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 5vmin;
+    color: rgb(0, 0, 0);
+    background-color: #8842b183;
+    border:0.5vmin solid black;
+    border-radius: 1vmin;
+    margin: 0;
+}
+.inputblock{
+    max-height: 50vh;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    position: relative;
+    text-align: center;
+    color: rgb(54, 50, 50);
+    background-color: #cdb0dfd2;
+    border-radius: 0.5vmin;
+}
+.textarea{
+    margin-top: 2vh;
+    width: 80%;
+    height: 15%;
+    font-size: 2vmin;
+    font-family:'Segoe UI';
+    text-align: center;
+    color:#000000;
+    border:0.2vmin solid black;
+    border-radius: 1vmin;
+}
+.regbutton{
+    margin: 2vh;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(124, 241, 150);
+    font-size: 2.5vmin;
+    border:0.1vmin solid rgb(0, 0, 0);
+    border-radius: 1vmin;
+}
+.regbutton:hover{
+    transition: 300ms;
+    background-color: rgb(80, 175, 101);
+}
+.file{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 1.7vmin;
+    align-items: center;
+    width: 90%;
+    height: 5vh;
+}
+/*
+Страница Пользователя
+*/
+.cont{
+    position: relative;
+    max-height: 70%;
+    height: 70%;
+    width: 70%;
+    left:25%;
+    top: 8vh;
+    display: flex;
+    flex-direction: row;
+    border-radius: 6vmin;
+    margin: 0;
+}
+.userImage img{
+    width: 313px;
+    height: 475px;
+    margin: 5vmin;
+    position:relative;
+    border: 1vmin solid gray;
+    border-radius: 6vmin;
+}
+.userinfo{
+    margin-top: 9vh;
+    font-size: 3.5vmin;
+    font-family:'Segoe UI';
+    text-align: left;
+    color:#000000;
+}
+.adminpanel{
+    width: 30vw;
+    position: relative;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 1.9vmin;
+    color: rgb(0, 0, 0);
+    background-color: #2e2e2e;
+    border:0.5vmin solid black;
+    border-radius: 1vmin;
+    margin: 0;
+}
+.admininput{
+    max-height: 50vh;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    position: relative;
+    text-align: center;
+    color: rgb(68, 68, 68);
+    background-color: #adadadd2;
+    border: 0.1vmin solid black;
+    border-radius: 0.5vmin;
+}
+.addbutton{
+    margin: 0.5vmin;
+    font-size: 1.5vmin;
+    font-family:'Segoe UI';
+    text-align: center;
+    background-color: rgb(124, 241, 150);
+}
+table{
+    width: 20vw;
+    background-color: white;
+}
+td{
+    border: 0.1vmin solid black;
+    text-align: center;
+    background-color: white;
+}
+.tabletext{
+    color:white;
+}

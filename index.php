@@ -3,15 +3,19 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Лабораторные работы</title>
     <Link rel="stylesheet" href="styles/styles.css">
-    <script type="text/javascript" src="scripts/scripts.js"></script>
 </head>
 
 <body>
-<h1> Мои лабораторные работы</h1>
-<a href="mldmlab1.php">Первая лабораторная работа</a>
-
+<div>
+    <div class="head">
+        <div class="headText">
+            Мои лабораторные работы МЛИДМ
+        </div>
+    </div>
+<a href="mldmlab1.php"><div class=buttontext><br>Первая лабораторная работа</div></a><br>
+<a href="mldmlab2.php"><div class=buttontext><br>Вторая лабораторная работа</div></a>
+</div>
 </body>
 
 </html>
