@@ -15,6 +15,7 @@
     </div>
 <a href="mldmlab1.php"><div class=buttontext><br>Первая лабораторная работа</div></a><br>
 <a href="mldmlab2.php"><div class=buttontext><br>Вторая лабораторная работа</div></a>
+<a href="mldmlab3.php"><div class=buttontext><br>Третья лабораторная работа</div></a>
 </div>
 </body>
 
